@@ -1,0 +1,39 @@
+# ── Зависимости и сборка ──
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# ── Секреты (ключ Gemini API и т.п.) ──
+.env
+.env.*
+!.env.example
+
+# ── Медицинские данные: НИКОГДА не в репозитории (публикуются только *.enc) ──
+*.pdf
+*.jpg
+*.jpeg
+*.heic
+*.tif
+*.tiff
+*.docx
+*.xlsx
+*.csv
+*.txt
+*.db
+*.sqlite
+public/data/*
+!public/data/*.enc
+!public/data/.gitkeep
+.private/
+backups/
+work/
+cache/
+
+# ── Служебное ОС/редакторов ──
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+*.tmp
