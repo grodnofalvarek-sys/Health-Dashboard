@@ -1,0 +1,330 @@
+{
+  "analytes": {
+    "LDL": {
+      "code": "LDL",
+      "group": "lipids",
+      "nameRu": "ЛПНП (холестерин низкой плотности)",
+      "nameLt": "MTL cholesterolis",
+      "shortName": "ЛПНП",
+      "unit": "ммоль/л",
+      "refLow": 0,
+      "refHigh": 3.0,
+      "targetHigh": 1.8,
+      "targetNote": "Целевой уровень кардиолога < 1.8 ммоль/л (CAD-RADS 2)"
+    },
+    "CHOL": {
+      "code": "CHOL",
+      "group": "lipids",
+      "nameRu": "Общий холестерин",
+      "nameLt": "Bendras cholesterolis",
+      "shortName": "ОХС",
+      "unit": "ммоль/л",
+      "refLow": 0,
+      "refHigh": 5.18
+    },
+    "HDL": {
+      "code": "HDL",
+      "group": "lipids",
+      "nameRu": "ЛПВП (холестерин высокой плотности)",
+      "nameLt": "DTL cholesterolis",
+      "shortName": "ЛПВП",
+      "unit": "ммоль/л",
+      "refLow": 1.04,
+      "refHigh": 2.5
+    },
+    "TG": {
+      "code": "TG",
+      "group": "lipids",
+      "nameRu": "Триглицериды",
+      "nameLt": "Trigliceridai",
+      "shortName": "ТГ",
+      "unit": "ммоль/л",
+      "refLow": 0,
+      "refHigh": 1.7
+    },
+    "NON_HDL": {
+      "code": "NON_HDL",
+      "group": "lipids",
+      "nameRu": "Не-ЛПВП холестерин",
+      "nameLt": "Ne DTL cholesterolis",
+      "shortName": "Не-ЛПВП",
+      "unit": "ммоль/л",
+      "refLow": 0,
+      "refHigh": 3.4,
+      "targetHigh": 2.6,
+      "targetNote": "Целевой уровень для высокой группы риска ≤ 2.6 ммоль/л"
+    },
+    "APOB": {
+      "code": "APOB",
+      "group": "lipids",
+      "nameRu": "Аполипопротеин B",
+      "nameLt": "Apolipoproteinas B",
+      "shortName": "ApoB",
+      "unit": "г/л",
+      "refLow": 0.66,
+      "refHigh": 1.44,
+      "targetHigh": 0.8,
+      "targetNote": "Целевой уровень кардиолога ≤ 0.80 г/л (80 мг/дл)"
+    },
+    "APOA1": {
+      "code": "APOA1",
+      "group": "lipids",
+      "nameRu": "Аполипопротеин A1",
+      "nameLt": "Apolipoproteinas A1",
+      "shortName": "ApoA1",
+      "unit": "г/л",
+      "refLow": 1.04,
+      "refHigh": 2.02
+    },
+    "APOB_APOA1": {
+      "code": "APOB_APOA1",
+      "group": "lipids",
+      "nameRu": "Соотношение АпоB / АпоA1",
+      "nameLt": "ApoB/ApoA1 santykis",
+      "shortName": "ApoB/ApoA1",
+      "unit": "индекс",
+      "refLow": 0,
+      "refHigh": 0.8
+    },
+    "PSA": {
+      "code": "PSA",
+      "group": "urology",
+      "nameRu": "ПСА общий (простатспецифический антиген)",
+      "nameLt": "Prostatos specifinis antigenas (PSA)",
+      "shortName": "ПСА",
+      "unit": "мкг/л",
+      "refLow": 0,
+      "refHigh": 4.0
+    },
+    "FPSA": {
+      "code": "FPSA",
+      "group": "urology",
+      "nameRu": "ПСА свободный (fPSA)",
+      "nameLt": "Laisvas PSA (fPSA)",
+      "shortName": "св. ПСА",
+      "unit": "мкг/л",
+      "refLow": 0,
+      "refHigh": 1.0
+    },
+    "CRP": {
+      "code": "CRP",
+      "group": "inflammation",
+      "nameRu": "С-реактивный белок (СРБ)",
+      "nameLt": "C reaktyvus baltymas (CRB)",
+      "shortName": "СРБ",
+      "unit": "мг/л",
+      "refLow": 0,
+      "refHigh": 5.0
+    },
+    "URINE_LEU": {
+      "code": "URINE_LEU",
+      "group": "urology",
+      "nameRu": "Лейкоциты в моче (тест-полоска)",
+      "nameLt": "Šlapimo leukocitai (BŠT)",
+      "shortName": "Лейкоциты мочи",
+      "unit": "кл/мкл",
+      "refLow": 0,
+      "refHigh": 25
+    },
+    "CREA": {
+      "code": "CREA",
+      "group": "renal",
+      "nameRu": "Креатинин крови",
+      "nameLt": "Kreatininas (CREA)",
+      "shortName": "Креатинин",
+      "unit": "мкмоль/л",
+      "refLow": 64,
+      "refHigh": 104
+    },
+    "EGFR": {
+      "code": "EGFR",
+      "group": "renal",
+      "nameRu": "СКФ (скорость клубочковой фильтрации, CKD-EPI)",
+      "nameLt": "Glomerulų filtracijos greitis (GFG)",
+      "shortName": "СКФ (eGFR)",
+      "unit": "мл/мин/1.73м²",
+      "refLow": 90,
+      "refHigh": 140
+    },
+    "URIC_ACID": {
+      "code": "URIC_ACID",
+      "group": "renal",
+      "nameRu": "Мочевая кислота",
+      "nameLt": "Šlapimo rūgštis (UA)",
+      "shortName": "Мочевая к-та",
+      "unit": "мкмоль/л",
+      "refLow": 210,
+      "refHigh": 420
+    },
+    "ALT": {
+      "code": "ALT",
+      "group": "liver",
+      "nameRu": "АЛТ (аланинаминотрансфераза)",
+      "nameLt": "Alanino aminotransferazė (ALT)",
+      "shortName": "АЛТ",
+      "unit": "Ед/л",
+      "refLow": 0,
+      "refHigh": 55
+    },
+    "AST": {
+      "code": "AST",
+      "group": "liver",
+      "nameRu": "АСТ (аспартатаминотрансфераза)",
+      "nameLt": "Aspartato aminotransferazė (ASAT)",
+      "shortName": "АСТ",
+      "unit": "Ед/л",
+      "refLow": 5,
+      "refHigh": 34
+    },
+    "GGT": {
+      "code": "GGT",
+      "group": "liver",
+      "nameRu": "ГГТП (гамма-глутамилтрансфераза)",
+      "nameLt": "Gama glutamiltransferazė (GGT)",
+      "shortName": "ГГТП",
+      "unit": "Ед/л",
+      "refLow": 0,
+      "refHigh": 55
+    },
+    "ALP": {
+      "code": "ALP",
+      "group": "liver",
+      "nameRu": "Щелочная фосфатаза (ЩФ)",
+      "nameLt": "Šarminė fosfatazė (ALP)",
+      "shortName": "ЩФ",
+      "unit": "Ед/л",
+      "refLow": 46,
+      "refHigh": 116
+    },
+    "BILIRUBIN": {
+      "code": "BILIRUBIN",
+      "group": "liver",
+      "nameRu": "Билирубин общий",
+      "nameLt": "Bilirubinas, bendrasis",
+      "shortName": "Билирубин",
+      "unit": "мкмоль/л",
+      "refLow": 5.1,
+      "refHigh": 20.5
+    },
+    "LIPASE": {
+      "code": "LIPASE",
+      "group": "liver",
+      "nameRu": "Липаза",
+      "nameLt": "Lipazė",
+      "shortName": "Липаза",
+      "unit": "Ед/л",
+      "refLow": 13,
+      "refHigh": 60
+    },
+    "GLU": {
+      "code": "GLU",
+      "group": "metabolic",
+      "nameRu": "Глюкоза натощак",
+      "nameLt": "Gliukozė",
+      "shortName": "Глюкоза",
+      "unit": "ммоль/л",
+      "refLow": 3.89,
+      "refHigh": 5.83
+    },
+    "HBA1C": {
+      "code": "HBA1C",
+      "group": "metabolic",
+      "nameRu": "Гликированный гемоглобин (HbA1c)",
+      "nameLt": "Glikozilintas hemoglobinas (HbA1c)",
+      "shortName": "HbA1c",
+      "unit": "%",
+      "refLow": 4.0,
+      "refHigh": 6.0
+    },
+    "TSH": {
+      "code": "TSH",
+      "group": "metabolic",
+      "nameRu": "ТТГ (тиреотропный гормон)",
+      "nameLt": "Tirotropinas (TTH / TSH)",
+      "shortName": "ТТГ",
+      "unit": "мМЕ/л",
+      "refLow": 0.35,
+      "refHigh": 4.94
+    },
+    "VITD": {
+      "code": "VITD",
+      "group": "metabolic",
+      "nameRu": "Витамин D (25-OH)",
+      "nameLt": "25-OH vitaminas D",
+      "shortName": "Витамин D",
+      "unit": "мкг/л",
+      "refLow": 30,
+      "refHigh": 100
+    },
+    "NT_PROBNP": {
+      "code": "NT_PROBNP",
+      "group": "cardio_markers",
+      "nameRu": "NT-proBNP (натрийуретический пептид)",
+      "nameLt": "NT pro-BNP",
+      "shortName": "NT-proBNP",
+      "unit": "пмоль/л",
+      "refLow": 0,
+      "refHigh": 133
+    },
+    "HGB": {
+      "code": "HGB",
+      "group": "hematology",
+      "nameRu": "Гемоглобин (HGB)",
+      "nameLt": "Hemoglobinas (HGB)",
+      "shortName": "Гемоглобин",
+      "unit": "г/л",
+      "refLow": 130,
+      "refHigh": 172
+    },
+    "WBC": {
+      "code": "WBC",
+      "group": "hematology",
+      "nameRu": "Лейкоциты крови (WBC)",
+      "nameLt": "Leukocitai (WBC)",
+      "shortName": "Лейкоциты",
+      "unit": "×10⁹/л",
+      "refLow": 3.9,
+      "refHigh": 10.2
+    },
+    "PLT": {
+      "code": "PLT",
+      "group": "hematology",
+      "nameRu": "Тромбоциты (PLT)",
+      "nameLt": "Trombocitai (PLT)",
+      "shortName": "Тромбоциты",
+      "unit": "×10⁹/л",
+      "refLow": 130,
+      "refHigh": 393
+    },
+    "K": {
+      "code": "K",
+      "group": "electrolytes",
+      "nameRu": "Калий (K⁺)",
+      "nameLt": "Kalis (K)",
+      "shortName": "Калий",
+      "unit": "ммоль/л",
+      "refLow": 3.5,
+      "refHigh": 5.1
+    },
+    "NA": {
+      "code": "NA",
+      "group": "electrolytes",
+      "nameRu": "Натрий (Na⁺)",
+      "nameLt": "Natris (Na)",
+      "shortName": "Натрий",
+      "unit": "ммоль/л",
+      "refLow": 136,
+      "refHigh": 145
+    },
+    "MG": {
+      "code": "MG",
+      "group": "electrolytes",
+      "nameRu": "Магний (Mg²⁺)",
+      "nameLt": "Magnis (Mg)",
+      "shortName": "Магний",
+      "unit": "ммоль/л",
+      "refLow": 0.66,
+      "refHigh": 1.07
+    }
+  }
+}

@@ -1,22 +1,29 @@
 {
   "name": "health-dashboard",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
-  "description": "Персональный медицинский дашборд (PWA). В репозитории — только код и зашифрованные данные.",
+  "description": "Персональный медицинский дашборд (PWA). В репозитории — только код и зашифрованные данные (AES-256-GCM).",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.json && vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "build:db": "node pipeline/build-db.mjs",
+    "encrypt": "node scripts/encrypt-data.mjs",
     "guard:staged": "node scripts/check-public.mjs --staged",
     "guard:repo": "node scripts/check-public.mjs --repo",
     "guard:dist": "node scripts/check-public.mjs --dist",
     "setup-hooks": "node scripts/setup-hooks.mjs"
   },
   "dependencies": {
+    "chart.js": "^4.6.1",
+    "chartjs-plugin-annotation": "^3.1.0",
+    "fuse.js": "^7.5.0",
     "lucide-react": "^1.66.0",
+    "pdfjs-dist": "^6.4.299",
     "react": "^19.3.1",
+    "react-chartjs-2": "^5.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.5"
   },
@@ -29,6 +36,7 @@
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
     "vite": "^8.3.5",
+    "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.0.5"
   }
 }
